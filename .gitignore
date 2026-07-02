@@ -29,6 +29,22 @@ dist-ssr
 .env.local
 .env.*.local
 
+# Build artifacts
+dist-build
+sea-prep.blob
+sea-config.json
+server-bundle.cjs
+database-tmp.ts
+
+# SQLite database files
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# Local-only credentials / temp notes
+注册管理员账户.txt
+_*.txt
+
 # Database (sql.js runtime files)
 data/*.db
 data/*.db-shm
